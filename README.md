@@ -170,25 +170,7 @@ symfony server:start
 - Gestion des rôles et permissions
 - Protection des données sensibles
 
-## Prochaines Étapes
 
-1. Refactorisation en services
-2. Ajout de tests unitaires et fonctionnels
-3. Documentation technique complète
-4. Optimisation des performances
-
-
-# 1. Vérifier l'état actuel
-ls -la node_modules/.bin/encore
-
-# 2. Donner toutes les permissions nécessaires
-chmod +x node_modules/.bin/*
-chmod 755 node_modules/.bin/encore
-
-# 3. Vérifier que c'est corrigé
-ls -la node_modules/.bin/encore
-
-# 4. Test direct avec le path complet
 ./node_modules/.bin/encore production --progress
 
 # 5. Vidé le cache
