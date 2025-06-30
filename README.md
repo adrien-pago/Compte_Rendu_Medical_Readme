@@ -170,8 +170,3 @@ symfony server:start
 - Gestion des rôles et permissions
 - Protection des données sensibles
 
-
-./node_modules/.bin/encore production --progress
-
-# 5. Vidé le cache
-php bin/console cache:clear
